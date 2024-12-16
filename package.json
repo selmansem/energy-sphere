@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/selmansem/energy-sphere.git"
+        "url": "git+https://github.com/selmansem/energy-sphere.git"
     },
     "license": "MIT",
     "type": "module",
