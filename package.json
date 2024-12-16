@@ -6,6 +6,10 @@
         "name": "Souhaib EM",
         "email": "contacto@souhaibem.eu"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/selmansem/energy-sphere.git"
+    },
     "license": "MIT",
     "type": "module",
     "main": "./dist/index.mjs",
