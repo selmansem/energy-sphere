@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^10.2.0",
-    "energy-sphere": "^1.0.0",
+    "@vercel/og": "^0.6.4",
+    "dotenv": "^16.4.7",
+    "energy-sphere": "^1.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
