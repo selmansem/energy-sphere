@@ -39,7 +39,7 @@ export async function GET() {
                             flexDirection: "column",
                             justifyContent: "space-between",
                             height: "100%",
-                            padding: "30px",
+                            padding: "30px 50px",
                         }}
                     >
                         <div
