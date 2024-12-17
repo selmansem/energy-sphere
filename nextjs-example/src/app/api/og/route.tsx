@@ -80,9 +80,11 @@ export async function GET() {
                         <img
                             src={`${process.env.NEXT_PUBLIC_URL}/energySphere.png`}
                             style={{
+                                position: "absolute",
+                                top: "0",
+                                left: "0",
                                 width: "100%",
-                                maskImage:
-                                    "radial-gradient(circle, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 56%)",
+                                //maskImage: "radial-gradient(circle, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 56%)",
                             }}
                             alt="Energy Sphere Component"
                         />
