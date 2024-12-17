@@ -1,6 +1,7 @@
-import { ImageResponse } from "@vercel/og";
+/* eslint-disable @next/next/no-img-element */
+import { ImageResponse } from "next/og";
 
-export async function generateOgImage(host, title, subtitle) {
+export async function GET() {
     const border_b_colors = [
         "#2C003E",
         "#4B0082",
@@ -48,10 +49,10 @@ export async function generateOgImage(host, title, subtitle) {
                             }}
                         >
                             <h1 style={{ color: "#fff", fontSize: "2rem" }}>
-                                {title}
+                                Energy Sphere Component
                             </h1>
                             <p style={{ color: "#fff", fontSize: "1rem" }}>
-                                {subtitle}
+                                A React component for displaying energy spheres.
                             </p>
                         </div>
                         <div
@@ -77,12 +78,13 @@ export async function generateOgImage(host, title, subtitle) {
                         }}
                     >
                         <img
-                            src={host}
+                            src={`${process.env.NEXT_PUBLIC_URL}/energySphere.png`}
                             style={{
                                 width: "100%",
                                 maskImage:
                                     "radial-gradient(circle, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 56%)",
                             }}
+                            alt="Energy Sphere Component"
                         />
                     </div>
                 </div>
